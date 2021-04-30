@@ -1,0 +1,215 @@
+/*
+    *****************
+    DONE BY:-   Monika Ahitaan
+    E-MAIL:-    monika.ahitaan11@gmail.com
+    *****************
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+  }
+  
+  nav {
+    background-color: #3b3a3a;
+    color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60%;
+        grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+    padding: 0% 5%;
+  }
+  
+  nav .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_size {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 4% 0% 0% 0%;
+    padding-left: 20%;
+  }
+  
+  nav .array-inputs #a_generate:hover {
+    cursor: pointer;
+    background-color: blue;
+  }
+  
+  nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  wrap{
+    font-size: xx-large;
+  }
+
+  nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: 50px;
+    padding: 3% 0%;
+    color: rgb(0, 255, 85);
+  }
+  
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (16.66667%) ;
+    grid-template-columns: repeat(6, 16.66667%);
+    place-content: center;
+    padding: 1% 0%;
+  }
+  
+  nav .header_right .algos button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 10% 0%;
+    font-size: x-large;
+  }
+  
+  nav .header_right .algos button:hover {
+    background-color: blue;
+    cursor: pointer;
+  
+   
+  }
+  
+  nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: green;
+  }
+  
+  nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_unselected:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+  
+  section #Info_Cont1 {
+    padding: 20%;
+  }
+  
+  section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  section #Info_Cont2 {
+    padding: 20%;
+  }
+  
+  .hide {
+    display: none;
+  }
+  /* footer section styling*/
+  * footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 400px;
+    padding: 80px 30px 50px;
+  }
+  .title{
+   text-align: center;
+ }
+  .items{
+   background-color: black;
+   color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
+  }
+  
+ title :hover{
+ text-align: center;
+ color:yellow;
+ text-transform: capitalize;
+
+ }
+
+ .footer-copyright{
+   background-color: rgb(20, 14, 14);
+   text-align: center;
+   color: white;
+   text-transform: lowercase;
+ }
+  
+  
+  /*
+  @media (max-width: 480px)//Mobiles
+  {
+      
+  }
+  @media (min-width: 481px) and (max-width: 1250px)//Tablets
+  {
+  }
+  @media (min-width: 1251px)//Laptops and up
+  {
+  }
+  @keyframes animate{
+      0%,10%,100%{
+          width: 0;
+
+      }
+      70%, 98%{
+          width: 100;
+      }
+  }
+  */
+  /*
+      *****************
+      DONE BY:-   Monika Ahitaan
+      E-MAIL:-    Monika.ahitaan11@gmail.com
+      *****************
+  */
+  /*# sourceMappingURL=style.css.map */

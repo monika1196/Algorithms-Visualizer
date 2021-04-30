@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+    *****************
+    DONE BY:-   Monika Ahitaan
+    E-MAIL:-    monika.ahitaan11@gmail.com
+    *****************
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./css/style.css">
+   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Bootstrap Link  -->
+    <!-- CSS only -->
+
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="array-inputs">
+                <p>Size of the array:</p>
+                <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+                <p>Speed of the algorithm:</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+                <button id="a_generate">Generate New Array!</button>
+            </div>
+
+            <div class="header_right">
+                <p class="nav-heading">Visualizer 
+                <span class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ " Sorting Algorithms "]'
+              ></span></p>
+            
+           
+
+                <div class="algos">
+                    <button style="margin-right: 20px;">Bubble</button>
+                    <button style="margin-right: 10px;">Selection</button>
+                    <button style="margin-left: 25px;">Insertion</button>
+                    <button style="margin-left: 30px;">Merge</button>
+                    <button style="margin-left: 20px;">Quick</button>
+                    <button style="margin-right: 20px;">Heap</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="Info_Cont1">
+            <p>This is First Container</p>
+        </div>
+
+        <div id="array_container">
+            
+        </div>
+
+        <div id="Info_Cont2">
+            <p>This is Second Container</p>
+        </div>
+
+    </section>
+
+   <!-- Footer-->
+   <section class="items">
+   <div class="social-media">
+    <h5 class="title">Follow up<span></span></h5>
+                <a href="https://www.linkedin.com/in/monika-ahitaan-87a0911bb/"> <i class="fab fa-fw fa-linkedin-in"> </i> </a>
+                <a href="https://github.com/monika1196"> <i class="fab fa-fw fa-github"> </i> </a>
+                <a href="https://www.instagram.com/monika.ahitaan/"> <i class="fab fa-fw fa-instagram"> </i> </a>
+    </div>
+    
+                    
+    
+    
+    
+
+                </section>
+    <div class="footer-copyright">
+    <div class="container">
+    <p>Copyright Design by Monika Ahitaan © 2021. All rights reserved.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+  
+    <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+    <script src="./scripts/textAnimate.js"></script>
+</body>
+
+<!--
+    *****************
+    DONE BY:-   Monika Ahitaan
+    E-MAIL:-    monika.ahitaan11@gmail.com
+    *****************
+-->
+
+</html>
