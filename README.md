@@ -1,21 +1,24 @@
 # Algorithms-Visualizer
 
-💡Lessons Learned
+![Screenshot (1)](https://user-images.githubusercontent.com/76454035/116649911-5d660b80-a93d-11eb-8e9d-9f679f6aa111.png)
+
+
+## 💡Lessons Learned
 Searching and Sorting Algorithms
 D3 Data Visualization
 Asynchronous Javascript
 Continuous Integration with CircleCI and Continuous Deployment with Git
-🛠 Technologies
+## 🛠 Technologies
 Front-End	Back-End	Deployment
 HTML5	Flask	CircleCI
 CSS3 javascript html5
 Bootstrap 4	.	.
 Javascript	.	.
 D3	.	.
-⚖️ Methodology
+## ⚖️ Methodology
 D3 Library for data visualization to both challenge myself with learning a new framework and because D3 is the ideal solution for data visualization problems
 Bootstrap 4 for increasing my experience working with it and to shift focus towards spending more time on the data visualization and underlying algorithms
-⚙️ Features
+## ⚙️ Features
 Visualize Heap Sort, Bubble Sort, Selection Sort, Merge Sort, and Insertion Sort
 Random numbers in an array are graphed as a bar chart
 The values of the array are displayed and updated in an HTML table below the bar chart
@@ -27,7 +30,7 @@ Add unit testing
 Allow user to specify the speed they want the algorithm to run
 Add more algorithms as I progress in my studies
 Expand upon the scope by incorporating data structure visualization and manipulation
-🚀 Getting Started
+## 🚀 Getting Started
 To run this project locally:
 
 In your terminal, navigate to the root project directory and run the following commands
