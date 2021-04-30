@@ -42,7 +42,7 @@ To start the web server, execute (without debugging):
 Alternatively, execute (without debugging):
 $ export FLASK_APP=application.py
 $ flask run
-📐 Tests
+## 📐 Tests
 Add unit testing
-🔒 License
+## 🔒 License
 Copyright Notice and Statement: currently under MIT license. Permission only to view and download.
